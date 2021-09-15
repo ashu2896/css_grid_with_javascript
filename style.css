@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 40px;
+    background-color: #2196F3;
+    margin-left: 30%;
+    margin-right: 30%;
+   
+  }
+  
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 50px ;
+    font-size: 30px; 
+  }
+  
+  .item1 {
+    grid-area:  1 ;
+  }
